@@ -7,6 +7,7 @@ Our project looks at data from the US National Missing and Unidentified Persons 
 Check out our video demonstration below:
 
 [![FaceFinder Demo](https://img.youtube.com/vi/anHJr45IJsI/0.jpg)](https://youtu.be/anHJr45IJsI?si=fh08QbZ-jJjcmOP_)
+
 ## What is NamUs?
 
 The National Missing and Unidentified Persons System (NamUs) is a national centralized repository and resource center for missing, unidentified, and unclaimed person cases across the United States.
