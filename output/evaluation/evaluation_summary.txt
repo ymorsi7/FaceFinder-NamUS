@@ -1,0 +1,14 @@
+FACE MATCHING EVALUATION SUMMARY:
+Evaluation performed on: 2025-03-13 11:56:54
+
+  Precision: 100.0%
+  Recall: 41.9%
+  F1 Score: 59.0%
+  Accuracy: 47.9%
+
+  True Positives: 18
+  False Positives: 0
+  True Negatives: 5
+  False Negatives: 25
+
+Total Evaluations: 48
