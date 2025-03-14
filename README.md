@@ -6,10 +6,7 @@ Our project looks at data from the US National Missing and Unidentified Persons 
 
 Check out our video demonstration below:
 
-[<video width="100%" controls>
-  <source src="./video-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>](https://user-images.githubusercontent.com/ymorsi7/FaceFinder/assets/video-demo.mp4)
+https://user-images.githubusercontent.com/ymorsi7/FaceFinder/assets/video-demo.mp4
 
 ## What is NamUs?
 
