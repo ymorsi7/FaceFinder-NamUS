@@ -2,6 +2,15 @@
 
 Our project looks at data from the US National Missing and Unidentified Persons System (NamUs) database in order to not only estimate the age of unlabeled photos, but also to find matches of missing persons against unidentified, unclaimed, and even general population photos. 
 
+## Demo Video
+
+Check out our video demonstration below:
+
+<video width="100%" controls>
+  <source src="video-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## What is NamUs?
 
 The National Missing and Unidentified Persons System (NamUs) is a national centralized repository and resource center for missing, unidentified, and unclaimed person cases across the United States.
