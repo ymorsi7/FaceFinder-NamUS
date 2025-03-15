@@ -6,7 +6,7 @@ Our project looks at data from the US National Missing and Unidentified Persons 
 
 Check out our video demonstration below:
 
-[![FaceFinder Demo](https://img.youtube.com/vi/anHJr45IJsI/0.jpg)](https://youtu.be/anHJr45IJsI?si=fh08QbZ-jJjcmOP)
+<img src="https://img.youtube.com/vi/anHJr45IJsI/0.jpg" alt="FaceFinder Demo" width="500"/>
 
 ## What is NamUs?
 
@@ -47,7 +47,7 @@ Our age estimation component is essentially a CNN structured as follows:
 
 #### Model Architecture Diagram
 
-![Model Architecture](model/mermaid-chart.png)
+<img src="model/mermaid-chart.png" alt="Model Architecture" width="500"/>
 
 After training and testing our model on the UTKFace dataset until we got results we were happy with, we then applied it to the NamUs data:
   - Used [namus-scraper GitHub Repository](https://github.com/Prepager/namus-scraper) to scrape missing persons data from from the NamUs database
@@ -79,13 +79,13 @@ Our custom CNN age estimation model's performance is as follows:
 | 61-75     | 331   | 9.59        |
 | 76+       | 201   | 14.10       |
 
-The following test results' plots and above table, of course, are once againbased on the UTKFace's data.
+The following test results' plots and above table, of course, are once again based on the UTKFace's data.
 
-![Age Group MAE](model/checkpoints/age_group_mae.png)
+<img src="model/checkpoints/age_group_mae.png" alt="Age Group MAE" width="500"/>
 
 The following is a scatter plot showing the correlation between predicted ages and and actual ages:
 
-![Prediction Scatter](model/checkpoints/prediction_scatter.png)
+<img src="model/checkpoints/prediction_scatter.png" alt="Prediction Scatter" width="500"/>
 
 #### Validation Process
 
@@ -96,19 +96,19 @@ To reiterate, before running our age-estimation model on NamUS data, we first va
 The following examples are case studies showing how our model perfomed with NamUs data:
 
 ##### Example 1: Elderly Individual (ID: 2773_115)
-![Elderly Individual](model/output/visualization/2773_115.jpg)
+<img src="model/output/visualization/2773_115.jpg" alt="Elderly Individual" width="500"/>
 
-Our CNN predicted this man to be 66.6, which based on visual inspection, seems to be a decent guess..
+Our CNN predicted this man to be 66.6, which based on visual inspection, seems to be a decent guess.
 
 ##### Example 2: Middle-Aged Individual (ID: 21001_45)
-![Middle-Aged Individual](model/output/visualization/21001_45.jpg)
+<img src="model/output/visualization/21001_45.jpg" alt="Middle-Aged Individual" width="500"/>
 
 Our model predicted this this man to be 50.1 years old, which also aligns with his visible features.
 
 ##### Example 3: Incorrect Estimation (ID: 531837_5)
-![Young Individual](model/output/visualization/531837_5.jpg)
+<img src="model/output/visualization/531837_5.jpg" alt="Young Individual" width="500"/>
 
-Here, our model predicts an age of 44.1 years, which is clearly a bit too high, ashe seems to be younger, (based on visual inspection he seems to be between his 20s and 30s).
+Here, our model predicts an age of 44.1 years, which is clearly a bit too high, as he seems to be younger, (based on visual inspection he seems to be between his 20s and 30s).
 
 This shows that our CNN has room for improvement, as a pretty clearly 20-30-something year old man is being misclassified as older. We can solve this in the future by perhaps using a large dataset or further tuning our model.
 
@@ -132,28 +132,28 @@ Total Evaluations: 48
 
 On a test set of 48 images, our face-matching system attains a **100% precision** with only a **41.9%** recall. This shows us that our matching system is good at finding matches, but not for all cases.
 
-![Performance Metrics](output/evaluation/performance.png)
+<img src="output/evaluation/performance.png" alt="Performance Metrics" width="500"/>
 
 ### Example Matches
 
 #### High Confidence Match (0.7478)
-![High Confidence Match](output/match_comparisons/figure_530991_match_530997_0.7478.png)
+<img src="output/match_comparisons/figure_530991_match_530997_0.7478.png" alt="High Confidence Match" width="500"/>
 
 #### Medium Confidence Match (0.6109)
-![Medium Confidence Match](output/match_comparisons/figure_459076_match_459265_0.6109.png)
+<img src="output/match_comparisons/figure_459076_match_459265_0.6109.png" alt="Medium Confidence Match" width="500"/>
 
 #### Lower Confidence Match (0.4896)
-![Lower Confidence Match](output/match_comparisons/figure_36723_match_36723_0.4896.png)
+<img src="output/match_comparisons/figure_36723_match_36723_0.4896.png" alt="Lower Confidence Match" width="500"/>
 
 #### Lower Confidence Match (0.4767)
-![Lower Confidence Match](output/match_comparisons/figure_116171_match_116171_0.4767.png)
+<img src="output/match_comparisons/figure_116171_match_116171_0.4767.png" alt="Lower Confidence Match" width="500"/>
 
 ### System Limitations
 
 #### Age and Race Variation Challenge (0.2173)
 Racial bias in AI is a problem that is unfortunately prevalent in the tech, and we were even able to find some examples of this with ArcFace. Upon manual validation, we found that some darker-skinned individuals were misclassified with .2+ similarly scores, despite in many cases having a large age differnce. This is certainy an area of improvement.
 
-![Age and Race Variation](output/match_comparisons/figure_537616_match_120212_0.2173.png)
+<img src="output/match_comparisons/figure_537616_match_120212_0.2173.png" alt="Age and Race Variation" width="500"/>
 
 ## Installation
 
