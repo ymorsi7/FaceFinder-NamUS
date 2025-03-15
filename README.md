@@ -112,6 +112,8 @@ Here, our model predicts an age of 44.1 years, which is clearly a bit too high, 
 
 This shows that our CNN has room for improvement, as a pretty clearly 20-30-something year old man is being misclassified as older. We can solve this in the future by perhaps using a large dataset or further tuning our model.
 
+<hr>
+
 ### Face Matching Performance
 
 ```
