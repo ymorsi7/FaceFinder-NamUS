@@ -47,7 +47,7 @@ Our age estimation component is essentially a CNN structured as follows:
 
 #### Model Architecture Diagram
 
-<img src="model/mermaid-chart.png" alt="Model Architecture" width="500"/>
+<img src="model/mermaid-chart.png" alt="Model Architecture"/>
 
 After training and testing our model on the UTKFace dataset until we got results we were happy with, we then applied it to the NamUs data:
   - Used [namus-scraper GitHub Repository](https://github.com/Prepager/namus-scraper) to scrape missing persons data from from the NamUs database
