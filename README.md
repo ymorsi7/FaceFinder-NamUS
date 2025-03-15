@@ -6,7 +6,7 @@ Our project looks at data from the US National Missing and Unidentified Persons 
 
 Check out our video demonstration below:
 
-<img src="https://img.youtube.com/vi/anHJr45IJsI/0.jpg" alt="FaceFinder Demo" width="500"/>
+[![FaceFinder Demo](https://img.youtube.com/vi/anHJr45IJsI/0.jpg)](https://youtu.be/anHJr45IJsI?si=fh08QbZ-jJjcmOP)
 
 ## What is NamUs?
 
