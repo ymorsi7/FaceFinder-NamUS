@@ -226,10 +226,10 @@ output/
 ```bash
 pip install -r requirements.txt
 
-# age estimation
+# age estimation (trained CNN)
 python model/model.py
 
-# face matching
+# face matching (using ArcFace + Cosine Similarity)
 python compare_faces.py # to compare faces with each other
 python organize_faces.py # to organize faces in proper convention for our code
 python evaluation.py --manual_validation # for evaluating face matches (manually)
